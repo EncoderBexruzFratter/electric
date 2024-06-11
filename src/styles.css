@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.transition_default{
+    transition: all .3s;
+}
+.swiper-pagination-bullet-active{
+    width: 14px !important;
+    height: 14px !important; 
+    border-radius: 100% !important;
+    background-color: white !important;
+}
+.swiper-pagination{
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+.title_1{
+    font-weight: 600;
+    font-size: 40px;
+    color: #3C3D46;
+    margin-bottom: 40px;
+}
