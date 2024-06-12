@@ -13,12 +13,11 @@
 <body class="bg-[#EFEDF0]">
     <!-- header start -->
     <header class="pt-[18px] pb-[10px]">
-        <div
-            class="bg-white rounded-[20px] pt-[30px] pb-7 max-w-[1336px] px-5 mx-auto pl-[53px] pr-10 flex items-center">
+        <div class="bg-white rounded-[20px] pt-[15px] lg:pt-[30px] pb-[15px] lg:pb-7 max-w-[1336px] px-5 mx-auto xl:pl-[53px] xl:pr-10 flex justify-between lg:justify-normal items-center">
             <a href="#" class="max-w-[113px]">
                 <img src="./img/header/header__logo.svg" alt="" class="object-cover w-full" />
             </a>
-            <ul class="flex items-center ml-[55px] gap-12">
+            <ul class="hidden lg:flex items-center ml-3 xl:ml-[55px] gap-5 xl:gap-12">
                 <li class="mr-8">
                     <a href="#" class="font-semibold text-lg text-[#3C3D46]">
                         ПН-ПТ <br />
@@ -35,35 +34,40 @@
                     <a href="#" class="font-semibold text-lg text-[#3C3D46]">+7 (999) 267 03 44</a>
                 </li>
             </ul>
-            <div class="ml-auto flex items-center gap-9">
-                <button
-                    class="max-w-[183px] py-[23px] px-8 border transition_default hover:border-[#FF8A00] hover:text-[#FF8A00] border-[#3C3D46] rounded-[95px] font-semibold text-[15px] text-[#3C3D46]">
-                    Заказать звонок
-                </button>
-                <button
-                    class="max-w-[70px] border border-[#3C3D46] transition_default hover:border-[#FF8A00] hover:text-[#FF8A00] rounded-full py-6 px-5">
-                    <svg width="" height="" class="w-full object-cover" viewBox="0 0 32 23" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M29.9 3.22767L17.274 13.248C16.9152 13.5329 16.4639 13.6888 15.998 13.6888C15.5321 13.6888 15.0808 13.5329 14.722 13.248L2.102 3.22767C2.03429 3.423 1.99984 3.62751 2 3.83333V19.1667C2 19.675 2.21071 20.1625 2.58579 20.522C2.96086 20.8814 3.46957 21.0833 4 21.0833H28C28.5304 21.0833 29.0391 20.8814 29.4142 20.522C29.7893 20.1625 30 19.675 30 19.1667V3.83333C30.0008 3.62761 29.967 3.4231 29.9 3.22767ZM4 0H28C29.0609 0 30.0783 0.403868 30.8284 1.12276C31.5786 1.84165 32 2.81667 32 3.83333V19.1667C32 20.1833 31.5786 21.1584 30.8284 21.8772C30.0783 22.5961 29.0609 23 28 23H4C2.93913 23 1.92172 22.5961 1.17157 21.8772C0.421427 21.1584 0 20.1833 0 19.1667V3.83333C0 2.81667 0.421427 1.84165 1.17157 1.12276C1.92172 0.403868 2.93913 0 4 0ZM3.58 1.91667L14.732 10.7391C15.0892 11.0218 15.5377 11.1769 16.0009 11.178C16.4642 11.179 16.9134 11.0259 17.272 10.7448L28.536 1.91667H3.58Z"
-                            fill="currentColor" />
-                    </svg>
-                </button>
-            </div>
+        <div class="lg:ml-auto flex items-center gap-3 xl:gap-9">
+            <button
+                class="sm:block hidden xl:max-h-[68px] max-h-[50px]  max-w-[183px] w-full xl:py-[23px] xl:px-8 py-[15px] px-6 border transition_default hover:border-[#FF8A00] hover:text-[#FF8A00] border-[#3C3D46] rounded-[95px] font-semibold text-sm xl:text-[15px] text-[#3C3D46]">
+                Заказать звонок
+            </button>
+            <button
+                class="sm:block hidden xl:max-h-[68px] max-h-[50px] max-w-[50px] xl:max-w-[70px] border border-[#3C3D46] transition_default hover:border-[#FF8A00] hover:text-[#FF8A00] rounded-full py-[18px] px-4 xl:py-6 xl:px-5">
+                <svg width="" height="" class="w-full object-cover" viewBox="0 0 32 23" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M29.9 3.22767L17.274 13.248C16.9152 13.5329 16.4639 13.6888 15.998 13.6888C15.5321 13.6888 15.0808 13.5329 14.722 13.248L2.102 3.22767C2.03429 3.423 1.99984 3.62751 2 3.83333V19.1667C2 19.675 2.21071 20.1625 2.58579 20.522C2.96086 20.8814 3.46957 21.0833 4 21.0833H28C28.5304 21.0833 29.0391 20.8814 29.4142 20.522C29.7893 20.1625 30 19.675 30 19.1667V3.83333C30.0008 3.62761 29.967 3.4231 29.9 3.22767ZM4 0H28C29.0609 0 30.0783 0.403868 30.8284 1.12276C31.5786 1.84165 32 2.81667 32 3.83333V19.1667C32 20.1833 31.5786 21.1584 30.8284 21.8772C30.0783 22.5961 29.0609 23 28 23H4C2.93913 23 1.92172 22.5961 1.17157 21.8772C0.421427 21.1584 0 20.1833 0 19.1667V3.83333C0 2.81667 0.421427 1.84165 1.17157 1.12276C1.92172 0.403868 2.93913 0 4 0ZM3.58 1.91667L14.732 10.7391C15.0892 11.0218 15.5377 11.1769 16.0009 11.178C16.4642 11.179 16.9134 11.0259 17.272 10.7448L28.536 1.91667H3.58Z"
+                        fill="currentColor" />
+                </svg>
+            </button>
+        </div>
+        <button class="xl:max-h-[68px] max-h-[50px] max-w-[50px]  w-full  h-[50px] lg:hidden flex  items-center justify-center  xl:max-w-[70px] border border-[#3C3D46] transition_default hover:border-[#FF8A00] hover:text-[#FF8A00] rounded-full ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+        </button>
         </div>
     </header>
     <!-- header end -->
     <!-- hero start -->
     <section class=" ">
-        <div class="rounded-[20px] bg-white max-w-[1336px] mx-auto pl-5 flex items-center justify-between">
-            <div class="pt-[41px] pr-[45px] pb-8 pl-7">
-                <h1 class="max-w-[557px] font-semibold mb-[203px] text-[40px] leading-[54px] text-[#3C3D46]">
+        <div class="rounded-[20px] bg-white max-w-[1336px] mx-auto md:pr-0 px-5 md:pl-5 flex lg:flex-row flex-col items-center justify-between">
+            <div class="md:pt-[41px] md:pr-[45px] md:pb-8 md:pl-7 mb-5 md:mb-0">
+                <h1 class="max-w-[557px] font-semibold mb-[50px] md:mb-[203px] text-2xl md:text-[40px] md:leading-[54px] text-[#3C3D46]">
                     Кабельная продукция со склада и под заказ <br />
                     с доставкой по РФ
                 </h1>
                 <div class="">
                     <button
-                        class="max-w-[231px] w-full py-5 hover:bg-[#000000] transition_default hover:text-white pl-[46px] max-h-[71px] mb-5 pr-[67px] flex items-center gap-[10px] border border-[#000000] rounded-[1000px]">
+                        class=" max-w-[231px] w-full py-5 hover:bg-[#000000] transition_default hover:text-white pl-[46px] max-h-[71px] mb-5 pr-[67px] flex items-center gap-[10px] border border-[#000000] rounded-[1000px]">
                         <svg width="32" height="33" viewBox="0 0 32 33" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -73,7 +77,7 @@
                         Заказать
                     </button>
                     <button
-                        class="max-w-[231px] w-full hover:bg-[#000000] transition_default hover:text-white px-10 max-h-[71px] pt-[18px] pb-6 flex items-center gap-[10px] border border-[#000000] rounded-[1000px]">
+                        class=" max-w-[231px] w-full hover:bg-[#000000] transition_default hover:text-white px-10 max-h-[71px] pt-[18px] pb-6 flex items-center gap-[10px] border border-[#000000] rounded-[1000px]">
                         <svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_21_284)">
@@ -95,19 +99,18 @@
                     </button>
                 </div>
             </div>
-            <div class="max-w-[643px]">
+            <div class="max-w-[500px] md:max-w-[643px]">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div id="hero__box"
-                                class="w-[643px] max-h-[599px] relative h-[599px] rounded-[20px] overflow-hidden flex items-end"
+                        <div class="swiper-slide ">
+                            <div id="hero__box" class="overflow-hidden md:max-w-[643px] max-h-[599px] h-[450px] md:h-[599px] rounded-[20px] flex items-end"
                                 style="
                     background-image: url(./img/hero/hero__right__card__bg.png);
                     background-size: cover;
                     background-position: center center;
                   ">
                                 <div id="hero"
-                                    class="w-full pt-8 pl-[46px] pr-[138px] leading-[3 px] text-white pb-[117px] font-semibold text-[32px] transition_default"
+                                    class="w-full pt-8 pl-5 xl:pl-[46px]  md:pr-[138px] leading-[3 px] text-white pb-[117px] font-semibold text-[32px] transition_default"
                                     style="
                       background: linear-gradient(
                         180deg,
@@ -115,22 +118,21 @@
                         rgba(0, 0, 0, 0.5) 20.46%
                       );
                     ">
-                                    <h2 class="">
+                                    <h2 class="font-semibold text-2xl text-white">
                                         Ходовые позиции по кабелю с низкой ценой "от" 2
                                     </h2>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div id="hero__box"
-                                class="w-[643px] max-h-[599px] relative h-[599px] rounded-[20px] overflow-hidden flex items-end"
+                        <div class="swiper-slide ">
+                            <div id="hero__box" class="overflow-hidden md:max-w-[643px] max-h-[599px] h-[450px] md:h-[599px] rounded-[20px] flex items-end"
                                 style="
                     background-image: url(./img/hero/hero__right__card__bg.png);
                     background-size: cover;
                     background-position: center center;
                   ">
                                 <div id="hero"
-                                    class="w-full pt-8 pl-[46px] pr-[138px] leading-[3 px] text-white pb-[117px] font-semibold text-[32px] transition_default"
+                                    class="w-full pt-8 pl-5 xl:pl-[46px]  md:pr-[138px] leading-[3 px] text-white pb-[117px] font-semibold text-[32px] transition_default"
                                     style="
                       background: linear-gradient(
                         180deg,
@@ -138,22 +140,21 @@
                         rgba(0, 0, 0, 0.5) 20.46%
                       );
                     ">
-                                    <h2 class="">
+                                    <h2 class="font-semibold text-2xl text-white">
                                         Ходовые позиции по кабелю с низкой ценой "от" 2
                                     </h2>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div id="hero__box"
-                                class="w-[643px] max-h-[599px] relative h-[599px] rounded-[20px] overflow-hidden flex items-end"
+                        <div class="swiper-slide ">
+                            <div id="hero__box" class="overflow-hidden md:max-w-[643px] max-h-[599px] h-[450px] md:h-[599px] rounded-[20px] flex items-end"
                                 style="
                     background-image: url(./img/hero/hero__right__card__bg.png);
                     background-size: cover;
                     background-position: center center;
                   ">
                                 <div id="hero"
-                                    class="w-full pt-8 pl-[46px] pr-[138px] leading-[3 px] text-white pb-[117px] font-semibold text-[32px] transition_default"
+                                    class="w-full pt-8 pl-5 xl:pl-[46px]  md:pr-[138px] leading-[3 px] text-white pb-[117px] font-semibold text-[32px] transition_default"
                                     style="
                       background: linear-gradient(
                         180deg,
@@ -161,7 +162,7 @@
                         rgba(0, 0, 0, 0.5) 20.46%
                       );
                     ">
-                                    <h2 class="">
+                                    <h2 class="font-semibold text-2xl text-white">
                                         Ходовые позиции по кабелю с низкой ценой "от" 2
                                     </h2>
                                 </div>
@@ -175,201 +176,201 @@
     </section>
     <!-- hero end -->
     <!-- range start -->
-    <section class="pt-[100px] pb-[108px]">
+    <section class="md:pt-[100px] py-12 md:pb-[108px]">
         <div class="max-w-[1336px] mx-auto px-5">
             <h3 class="title_1 ">Ассортимент:</h3>
-            <div class="grid grid-cols-3 gap-[10px]">
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img src="./img/range/range__img_1.png" alt="" class="block mb-[34px]" />
-                    <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[65px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[10px]">
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img src="./img/range/range__img_1.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
+                    <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-7 md:mb-[65px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             ВВГ
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             ВБШВ
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АВВГ
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АВБШВ
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Силовой кабель с медной или алюминиевой жилой, ПВХ изоляцией в
                         исполнении Э, нг(А), LS, FRLS, FRLS, FRLSTx, ХЛ на напряжение от
                         0,66кВ до 6кВ
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range__1.png" alt="" class="block mb-[34px]" />
-                    <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[65px]">
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range__1.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
+                    <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-7 md:mb-[65px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             КВВГ
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             КВБбШв
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Контрольный кабель с медной жилой в исполнении Э, нг(А), LS, FRLS,
                         FRLSLTx, ХЛ на напряжение 0,66кВ и 1кВ
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range_2.png" alt="" class="block mb-[34px]" />
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range_2.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
                     <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[22px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АПвП
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АПвПг
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АПвПу
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АПвПуг
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АПвПуг
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Силовой кабель с алюминиевой или медной жилой, изоляцией из
                         сшитого полиэтилена на напряжение от 6кВ до 35кВ
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range_3.png" alt="" class="block mb-[34px]" />
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range_3.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
                     <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[46px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             ААБл
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АСБл
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             ААШв
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             АСБ
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             КГ
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Cиловой кабель с алюминиевой или медной жилой, бумажно пропитанной
                         изоляцией на напряжение от 1кВ до 10кВ
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range_4.png" alt="" class="block mb-[34px]" />
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range_4.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
                     <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[46px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             КГН
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             КГТП
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             КРШС
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             СИП-1
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             СИП-2
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Гибкий кабель с медной жилой для нестационарной прокладки в
                         исполнении Т, ХЛ на напряжение до 1кВ
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range_5.png" alt="" class="block mb-[34px]" />
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range_5.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
                     <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[46px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             СИП-3
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             СБл
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             КРШС
                         </button>
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             СИП-4
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Самонесущие изолированные провода с алюминиевой жилой  на
                         напряжение от 20кВ до 35кВ
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range_6.png" alt="" class="block mb-[34px]" />
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range_6.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
                     <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[18px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             Устройства защиты и управления
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Силовой кабель с медной или алюминиевой жилой, ПВХ изоляцией в
                         исполнении Э, нг(А), LS, FRLS, FRLS, FRLSTx, ХЛ на напряжение от
                         0,66кВ до 6кВ
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range_7.png" alt="" class="block mb-[34px]" />
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range_7.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
                     <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[18px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             Кабеленесущие системы
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Лотки кабельные, кабельные каналы, трубы, металлоруков, коробки
                         распределительные
                     </p>
                 </div>
-                <div class="pt-7 h-[432px] max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
-                    <img id="range__img" src="./img/range/range_8.png" alt="" class="block mb-[34px]" />
+                <div class="pt-7 max-h-[500px] lg:h-[432px] lg:max-h-[432px] bg-white pr-[22px] pb-[53px] w-full rounded-[20px]">
+                    <img id="range__img" src="./img/range/range_8.png" alt="" class="block md:max-w-[284px] max-w-[200px] mb-6 md:mb-[34px]" />
                     <div class="pl-5 flex items-center flex-wrap gap-[6px] mb-[18px]">
                         <button id="range__btn"
-                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-base">
+                            class="rounded-[75px] py-[10px] px-[17px] bg-[#000000] text-white font-medium text-xs md:text-base">
                             Светотехническая продукция
                         </button>
                     </div>
-                    <p id="range__text" class="pl-5 font-normal text-base text-[#000000] max-w-[384px]">
+                    <p id="range__text" class="pl-5 font-normal text-sm md:text-base text-[#000000] max-w-[384px]">
                         Силовой кабель с медной или алюминиевой жилой, ПВХ изоляцией в
                         исполнении Э, нг(А), LS, FRLS, FRLS, FRLSTx, ХЛ на напряжение от
                         0,66кВ до 6кВ
@@ -380,12 +381,11 @@
     </section>
     <!-- range end -->
     <!-- choose start -->
-    <section class="pb-[108px]">
+    <section class="pb-12 md:pb-[108px]">
         <div class="max-w-[1336px] mx-auto px-5">
             <h4 class="title_1 ">Почему выбирают нас?</h4>
-            <div class="flex items-center gap-[10px]">
-                <div
-                    class="text-[#3C3D46] pt-[102px] pb-[114px] pl-[75px] pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
+            <div class="flex items-center gap-3 justify-center md:justify-between flex-wrap md:flex-nowrap xl:gap-[10px]">
+                <div class="max-w-[232px] w-full md:max-w-[317px] max-h-[261px] h-[261px] md:max-h-[373px] md:h-auto text-[#3C3D46] pt-[51px] xl:pt-[102px] pb-[57px] xl:pb-[114px] px-9 xl:pl-[75px] xl:pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
                     <svg clas width="64" height="73" viewBox="0 0 64 73" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -393,12 +393,11 @@
                             fill="currentColor" stroke="currentColor" stroke-width="0.797865" />
                     </svg>
 
-                    <h5 class="font-bold text-xl max-w-[169px] text-center">
+                    <h5 class="font-bold text-sm md:text-xl max-w-[169px] text-center">
                         Товар сертифицирован
                     </h5>
                 </div>
-                <div
-                    class="text-[#3C3D46] pt-[102px] pb-[114px] pl-[75px] pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
+                <div class="max-w-[232px] w-full md:max-w-[317px] max-h-[261px] h-[261px] md:max-h-[373px] md:h-auto text-[#3C3D46] pt-[51px] xl:pt-[102px] pb-[57px] xl:pb-[114px] px-9 xl:pl-[75px] xl:pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
                     <svg clas width="67" height="62" viewBox="0 0 67 62" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -409,12 +408,11 @@
                             fill="currentColor" />
                     </svg>
 
-                    <h5 class="font-bold text-xl max-w-[169px] text-center">
+                    <h5 class="font-bold text-sm md:text-xl max-w-[169px] text-center">
                         Приемлимые цены
                     </h5>
                 </div>
-                <div
-                    class="text-[#3C3D46] pt-[102px] pb-[114px] pl-[75px] pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
+                <div class="max-w-[232px] w-full md:max-w-[317px] max-h-[261px] h-[261px] md:max-h-[373px] md:h-auto text-[#3C3D46] pt-[51px] xl:pt-[102px] pb-[57px] xl:pb-[114px] px-9 xl:pl-[75px] xl:pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
                     <svg clas width="73" height="55" viewBox="0 0 73 55" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -425,12 +423,11 @@
                             fill="currentColor" />
                     </svg>
 
-                    <h5 class="font-bold text-xl max-w-[169px] text-center">
+                    <h5 class="font-bold text-sm md:text-xl max-w-[169px] text-center">
                         Быстро отвечаем
                     </h5>
                 </div>
-                <div
-                    class="text-[#3C3D46] pt-[102px] pb-[114px] pl-[75px] pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
+                <div class="max-w-[232px] w-full md:max-w-[317px] max-h-[261px] h-[261px] md:max-h-[373px] md:h-auto text-[#3C3D46] pt-[51px] xl:pt-[102px] pb-[57px] xl:pb-[114px] px-9 xl:pl-[75px] xl:pr-[72px] bg-white flex items-center flex-col gap-10 hover:text-[#FF8A00] transition_default rounded-[20px]">
                     <svg clas width="72" height="59" viewBox="0 0 72 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M60.391 47.8006C60.391 50.0011 59.5169 52.1114 57.961 53.6673C56.405 55.2233 54.2947 56.0974 52.0943 56.0974C49.8938 56.0974 47.7835 55.2233 46.2276 53.6673C44.6716 52.1114 43.7975 50.0011 43.7975 47.8006C43.7975 45.6002 44.6716 43.4899 46.2276 41.9339C47.7835 40.378 49.8938 39.5038 52.0943 39.5038C54.2947 39.5038 56.405 40.378 57.961 41.9339C59.5169 43.4899 60.391 45.6002 60.391 47.8006ZM27.2039 47.8006C27.2039 50.0011 26.3298 52.1114 24.7739 53.6673C23.2179 55.2233 21.1076 56.0974 18.9072 56.0974C16.7067 56.0974 14.5964 55.2233 13.0405 53.6673C11.4845 52.1114 10.6104 50.0011 10.6104 47.8006C10.6104 45.6002 11.4845 43.4899 13.0405 41.9339C14.5964 40.378 16.7067 39.5038 18.9072 39.5038C21.1076 39.5038 23.2179 40.378 24.7739 41.9339C26.3298 43.4899 27.2039 45.6002 27.2039 47.8006Z"
@@ -442,7 +439,7 @@
                             stroke-linejoin="round" />
                     </svg>
 
-                    <h5 class="font-bold text-xl max-w-[169px] text-center">
+                    <h5 class="font-bold text-sm md:text-xl max-w-[169px] text-center">
                         Оперативно доставляем
                     </h5>
                 </div>
@@ -451,33 +448,33 @@
     </section>
     <!-- choose end -->
     <!-- factories start -->
-    <section class="pb-[181px]">
+    <section class="pb-12 md:pb-[181px]">
         <div class="max-w-[1336px] mx-auto px-5">
-            <h5 class="max-w-468px title_1 mb-[87px]">
+            <h5 class="max-w-468px title_1 mb-10 md:mb-[87px]">
                 Мы реализуем <br />
                 кабельную продукцию <br />
                 заводов:
             </h5>
-            <marquee behavior="" direction="" class="flex items-center pt-[56px] pb-[54px]">
+            <marquee behavior="" direction="" class="flex items-center py-5 md:pt-[56px] md:pb-[54px]">
                 <div class="flex items-center">
-                    <img src="img/factories/1.png" alt="" class="inline-block mr-[113px]" />
-                    <img src="img/factories/2.png" alt="" class="inline-block mr-[88px]" />
-                    <img src="img/factories/3.png" alt="" class="inline-block mr-[88px]" />
-                    <img src="img/factories/4.png" alt="" class="inline-block mr-[88px]" />
-                    <img src="img/factories/5.png" alt="" class="inline-block" />
+                    <img src="img/factories/1.png" alt="" class="md:w-auto max-w-[150px] inline-block mr-10 md:mr-[113px]" />
+                    <img src="img/factories/2.png" alt="" class="md:w-auto max-w-[150px] inline-block mr-10 md:mr-[88px]" />
+                    <img src="img/factories/3.png" alt="" class="md:w-auto max-w-[150px] inline-block mr-10 md:mr-[88px]" />
+                    <img src="img/factories/4.png" alt="" class="md:w-auto max-w-[150px] inline-block mr-10 md:mr-[88px]" />
+                    <img src="img/factories/5.png" alt="" class="md:w-auto max-w-[150px] inline-block" />
                 </div>
             </marquee>
         </div>
     </section>
     <!-- factories end -->
     <!-- brand start -->
-    <section class="pb-[116px]">
+    <section class="pb-12 md:pb-[116px]">
         <div class="max-w-[1336px] mx-auto px-5">
             <h5 class="title_1  max-w-[544px]">
                 Выгодное предложение на продукцию брендов:
             </h5>
             <div
-                class="bg-white pt-[73px] pl-[58px] pb-[65px] pr-[63px] grid grid-cols-4 gap-x-[141px] gap-y-20 rounded-[20px]">
+                class="bg-white p-10 md:pt-[73px] md:pl-[58px] md:pb-[65px] md:pr-[63px] grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-10 sm:gap-x-[70px] lg:gap-x-[141px] gap-y-6 sm:gap-y-10 lg:gap-y-20 rounded-[20px]">
                 <img src="./img/brand/1.png" alt="" class="object-cover" />
                 <img src="./img/brand/2.png" alt="" class="object-cover" />
                 <img src="./img/brand/3.png" alt="" class="object-cover" />
@@ -485,7 +482,7 @@
                 <img src="./img/brand/5.png" alt="" class="object-cover" />
                 <img src="./img/brand/6.png" alt="" class="object-cover" />
                 <img src="./img/brand/7.png" alt="" class="object-cover" />
-                <div class=""></div>
+                <div class="lg:block hidden"></div>
                 <img src="./img/brand/8.png" alt="" class="object-cover" />
                 <img src="./img/brand/9.png" alt="" class="object-cover" />
                 <img src="./img/brand/10.png" alt="" class="object-cover" />
@@ -498,45 +495,100 @@
     <section class="pb-[50px]">
         <div class="max-w-[1336px] mx-auto px-5">
             <h5 class="title_1 ">Наши реквизиты:</h5>
-            <div class="flex items-center gap-[10px]">
-                <div class="max-h-[342px] h-[342px] bg-white py-[35px] rounded-[20px] pr-[59px] pl-[52px] flex flex-col items-center">
+            <div class="flex items-center md:flex-row flex-col gap-[10px] lg:mb-0 mb-[10px] md:mb-5">
+                <div class="w-full md:max-h-[342px] h-[342px] bg-white py-[35px] rounded-[20px] pr-[59px] pl-[52px] flex flex-col items-center">
                     <img src="./img/brand/brat.png" alt="" class="object-cover mb-9 max-w-[159px] h-[159px]">
                     <h5 class="font-semibold text-xl text-[#000000] mb-3">Сергей Мох</h5>
                     <p class="font-normal text-xs text-[#000000] ">Коммерческий <br> директор ООО ЮТА</p>
                 </div>
-                <div class="max-h-[342px] h-[342px] bg-white py-[35px] pr-[70px] pl-[38px] rounded-[20px] flex items-center gap-9 max-w-[633px] w-full">
-                    <ul class="flex flex-col gap-2">
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">Юридический адрес:</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">ИНН</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">КПП</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">ОГРН</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">ОКПО</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">БИК</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">Корр. счёт</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">Расч. счёт</a></li>
-                        <li><a href="#" id="brand_link" class="font-bold text-base text-[#3E3C49]">Банк</a></li>
+                <div
+                    class="max-h-[342px] h-[342px] bg-white py-[35px] md:pr-[70px] md:pl-[38px] px-5 rounded-[20px] flex items-center gap-1 sm:gap-5 md:gap-9 max-w-[633px] w-full">
+                    <ul class="flex flex-col gap-[6px] sm:gap-2">
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">Юридический
+                                адрес:</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">ИНН</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">КПП</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">ОГРН</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">ОКПО</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">БИК</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">Корр. счёт</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">Расч. счёт</a></li>
+                        <li><a href="#" id="brand_link" class="font-bold text-xs md:text-base text-[#3E3C49]">Банк</a></li>
                     </ul>
-                    <ul class="flex flex-col gap-2">
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">603089 Н.Новгород, Полтавская 32, оф. 17</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">5262364830</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">526201001</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">119527</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">119527</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">042202603</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">042202603</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">042202603</a></li>
-                        <li><a href="#" id="brand_link" class="font-medium text-base text-[#3E3C49]">Волго-Вятский банк ПАО Сбербанк </a></li>
+                    <ul class="flex flex-col gap-[6px] sm:gap-2">
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">603089 Н.Новгород,
+                                Полтавская 32, оф. 17</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">5262364830</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">526201001</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">119527</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">119527</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">042202603</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">042202603</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">042202603</a></li>
+                        <li><a href="#" id="brand_link" class="font-medium text-xs md:text-base text-[#3E3C49]">Волго-Вятский банк
+                                ПАО Сбербанк </a></li>
                     </ul>
                 </div>
-                <div class="max-h-[342px] h-[342px] p-2 bg-white rounded-[20px] max-w-[424px]">
-                    <img src="./img/brand/map.png" class="object-cover" alt="">
+                <div class="max-h-[342px] h-[342px] lg:block hidden p-2 bg-white rounded-[20px] max-w-[424px]">
+                    <img src="./img/brand/map.png" class="object-cover h-full" alt="">
                 </div>
+            </div>
+            <div class="lg:hidden block max-h-[342px] h-[342px] p-2 bg-white rounded-[20px] w-full">
+                <img src="./img/brand/map.png" class="object-cover h-full w-full rounded-[20px]" alt="">
             </div>
         </div>
     </section>
     <!-- details end -->
     <!-- questions start -->
+    <section class="pb-9 md:pb-[50px]">
+        <div class="bg-white max-w-[686px] mx-auto px-5 py-6 md:py-[54px] md:pl-[83px] md:pr-[93px] rounded-[20px]">
+            <h5 class="title_1 text-center mb-5 md:mb-[50px]">Появились вопросы? </h5>
+            <form class="">
+                <input type="text" class="w-full bg-[#EFEDF0] pt-[15px] pb-[13px] pl-6 rounded-[750px] mb-[10px]"
+                    placeholder="Ваше имя">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-[10px]">
+                    <input type="tel" class="w-full bg-[#EFEDF0] pt-[15px] pb-[13px] pl-6 rounded-[750px] mb-[10px]"
+                        placeholder="+7 (___) ___ __ __">
+                    <input type="email" class="w-full bg-[#EFEDF0] pt-[15px] pb-[13px] pl-6 rounded-[750px] mb-[10px]"
+                        placeholder="Email">
+                </div>
+                <textarea name=""
+                    class="w-full  bg-[#EFEDF0] h-[174px] pt-[15px] pb-[13px] pl-6 rounded-[20px] mb-4 md:mb-[25px]" id=""
+                    cols="30" rows="10" placeholder="Опишите кратко суть Вашего вопроса..."></textarea>
+                <p class="font-normal text-xs mb-3 text-center">Отправляя форму, Вы соглашаетесь на обработку Ваших
+                    персональных данных</p>
+                <button
+                    class="w-full py-4 md:px-[157px] rounded-[750px] bg-black text-white font-medium text-lg ">Отправить
+                    вопрос </button>
+            </form>
+        </div>
+    </section>
     <!-- questions end -->
+    <!-- footer start -->
+    <section class="pb-5 md:pb-[34px]">
+        <div class="bg-[#000000] max-w-[1336px] mx-auto px-5 rounded-[20px] pt-[29px] md:pr-12 md:pl-9 pb-[35px] flex sm:flex-row flex-col sm:items-center sm:gap-0 gap-5 sm:justify-between">
+            <div class="flex flex-col gap-[30px]">
+                <a href="#" class=""><img src="./img/footer/footer__logo.svg" alt="" class=""></a>
+                <p class="font-extrabold text-sm md:text-base text-white">ПН-ПТ 9:00-18:00</p>
+                <p class="font-medium text-base md:text-lg text-[#525252]">Все права защищены</p>
+            </div>
+            <ul class="flex flex-col gap-4 md:gap-[50px]">
+                <li><a href="#" class="text-base md:text-lg font-semibold text-white">Ассортимент</a></li>
+                <li><a href="#" class="text-base md:text-lg font-semibold text-white">Запросить прайс</a></li>
+                <li><a href="#" class="text-base md:text-lg font-semibold text-white">О компании</a></li>
+            </ul>
+            <div class="flex flex-col gap-6">
+                <a href="#" class="font-semibold text-base md:text-lg text-white">+7 (999) 267 03 44</a>
+                <button
+                    class="max-w-[183px] py-3 sm:py-[23px] px-8 border transition_default border-white rounded-[95px] font-semibold text-xs md:text-[15px] text-white">
+                    Заказать звонок
+                </button>
+                <a href="#" class="font-semibold text-sm md:text-base text-white border-b border-white max-w-[105px]">Написать
+                    нам</a>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
     <script>
