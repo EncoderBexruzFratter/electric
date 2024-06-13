@@ -107,15 +107,6 @@ html {
     }
 
 }
-
-#range__img {
-    transform: scale(1);
-    transition: all .3s;
-}
-
-#range__img:hover {
-    transform: scale(.9);
-}
 #brands{
     transition: all .3s;
 }
