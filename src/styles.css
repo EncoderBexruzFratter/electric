@@ -113,3 +113,9 @@ html {
 #brands:hover{
     transform: scale(.8) rotate(2deg);
 }
+input{
+    outline: none;
+}
+textarea{
+    outline: none;
+}
